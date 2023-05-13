@@ -45,7 +45,7 @@ if (poloha <= 179)  //max uhel natočení serva
   delay(15);
 }
   if (y >= 600)
-  if (poloha >= 1){
+  if (poloha >= 1){      //min úhel natočení serva
   poloha--;
   delay(15);
   }
