@@ -100,7 +100,7 @@ void vt(int obr[8][velikostPole]) {
 
     digitalWrite(sloupec[i], HIGH);         //a tohle musi byt na konci 
 
-  };
+  };        //možná je to ; navíc (špatně)
 }
 
 
@@ -121,5 +121,5 @@ void vo(int obr[8][8]) {                          //tohle pujde taky smazat
 
 
     digitalWrite(sloupec[i], HIGH);
-  };
+  };        //možná je to ; navíc (špatně)
 }
